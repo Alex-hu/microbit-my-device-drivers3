@@ -2,6 +2,9 @@ namespace screenMagic {
     /**
      * LED 逐行扫描
      */
+    //% blockId=screenmagicplotat
+    //% block="plot at index"
+    //% index.min=0 index.max=25
     export function plotAt(index: number): void {
         index |= 0
         const y = Math.floor(index / 5)
